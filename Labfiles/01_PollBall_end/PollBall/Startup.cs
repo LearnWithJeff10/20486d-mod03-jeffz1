@@ -37,7 +37,7 @@ namespace PollBall
                 }
             });
 
-            app.UseStaticFiles();
+            app.UseStaticFiles(); // I don't understand this...
 
             app.UseMvcWithDefaultRoute();
 
